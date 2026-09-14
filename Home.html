@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>🏠 2027 Calendar - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background.png') no-repeat center center fixed;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 40px 20px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-size: 50px;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+            margin-bottom: 30px;
+            text-align: center;
+        
+        }
+        .months-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            max-width: 600px;
+            width: 100%;
+        }
+        .month-btn {
+            display: block;
+            padding: 18px 10px;
+            background: rgba(255, 255, 255, 0.92);
+            color: #006666;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 6px;
+            border: 4px solid #006666;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+            transition: all 0.3s ease;
+        }
+        .month-btn:hover {
+            background: rgba(0, 102, 102, 0.95);
+            color: #fff;
+            transform: translateY(-3px);
+        }
+        .student-info {
+            margin-top: 35px;
+            font-size: 20px;
+            font-weight: bold;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+            text-align: center;
+            line-height: 1.6;
+        }
+        @media (max-width: 500px) {
+            .months-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+<h1>2027 CALENDAR</h1>
+
+
+<div class="months-grid">
+    <a href="january.html" class="month-btn">January</a>
+    <a href="february.html" class="month-btn">February</a>
+    <a href="march.html" class="month-btn">March</a>
+    <a href="april.html" class="month-btn">April</a>
+    <a href="may.html" class="month-btn">May</a>
+    <a href="june.html" class="month-btn">June</a>
+    <a href="july.html" class="month-btn">July</a>
+    <a href="august.html" class="month-btn">August</a>
+    <a href="september.html" class="month-btn">September</a>
+    <a href="october.html" class="month-btn">October</a>
+    <a href="november.html" class="month-btn">November</a>
+    <a href="december.html" class="month-btn">December</a>
+</div>
+
+<div class="student-info">
+    Rachelle S Ramos<br>
+    2nd Yr - ACS
+</div>
+
+</body>
+</html>
